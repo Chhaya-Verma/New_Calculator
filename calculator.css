@@ -1,0 +1,114 @@
+body{
+    background-image: url("https://images.pexels.com/photos/1439226/pexels-photo-1439226.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    /* color: white; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    
+
+}
+main{
+    border: 2px solid white;
+    width: 80%;
+    max-width: 500px;
+    background: rgba(0, 0, 0, 0.4);
+    padding: 40px 10px 50px 10px;
+    border-radius: 10px;
+}
+#head{
+    font-size: 30px;
+    margin-top: -5%;
+    text-align: center;
+    color: rgb(163, 217, 243);
+}
+#inputBox{
+    background-color: transparent;
+    border: 2px solid white;
+    width: 70%;
+    padding: 30px;
+    font-size: 1.5rem;
+    color:white;
+    border-radius: 10px;
+    text-align: center;
+}
+#input{
+    text-align: center;
+}
+.row{
+    padding: 30px;
+    display: flex;
+    flex-wrap: wrap;
+     justify-content: center;
+}
+.for-Hight{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.opretor{
+    background-color: transparent;
+    border: 2px solid white;
+    padding: 13px;
+    font-size: 1.7em;
+    text-align: center;
+    color: rgb(250, 241, 241);
+    border-radius: 10px;
+    margin: 5px;
+    cursor: pointer;
+    width: 15%;
+}
+
+@keyframes blink {
+    0% { opacity: 1; }
+    50% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+h2{
+    animation: blink 1s infinite;
+    
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    
+}
+button{
+    border: 2px solid white;
+}
+button:hover{
+    background-color: rgb(93, 184, 214);
+}
+
+#del{
+    font-size: 15px;
+    font-weight: bold;
+}
+#ac{
+    font-size: 15px;
+    font-weight: bold;
+
+}
+@media (max-width: 600px) {
+    button {
+        font-size: 1em;
+        padding: 10px;
+        flex: 1 1 22%;
+    }
+}
+
+@media (max-width: 400px) {
+    button {
+        font-size: 0.8em;
+        padding: 8px;
+        flex: 1 1 24%;
+    }
+    #inputBox {
+        font-size: 1.2em;
+    }
+}
+
